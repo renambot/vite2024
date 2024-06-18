@@ -1,0 +1,17 @@
+services:
+  frontend:
+    image: "vite2024-frontend"
+    ports:
+      - "3000:3000"
+    depends_on:
+      - "api-server"
+    deploy:
+      restart_policy:
+        condition: on-failure
+  api-server:
+    image: "vite2024-server"
+    ports:
+      - "127.0.0.1:4000:4000"
+    deploy:
+      restart_policy:
+        condition: on-failure

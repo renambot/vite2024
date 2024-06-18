@@ -1,0 +1,17 @@
+{
+  "name": "vite2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "server",
+    "frontend"
+  ],
+  "scripts": {
+    "build": "npm --workspaces run build",
+    "server:dev": "npm --workspace=server run dev",
+    "frontend:dev": "npm --workspace=frontend run dev"
+  },
+  "author": "",
+  "license": "ISC"
+}

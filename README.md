@@ -1,12 +1,13 @@
 # Introduction
+
+<img width="600" alt="Screenshot 2024-06-18 at 1 28 04 PM" src="https://github.com/renambot/vite2024/assets/5595452/a5bdb379-5764-4ba4-a453-37d4dffbe9e8">
+
  - frontend and server are in separate directories, called workspaces
  - each workspace has its own package.json
  - each workspace has its own Dockfile to build a docker image
  - the deployment folder has a docker-compose.yml to run the project as a whole
    - frontend is hosted using ngxinx web server, expose to the network
    - API server is hosted using nodejs, running only on 'localhost'
-
-<img width="600" alt="Screenshot 2024-06-18 at 1 28 04 PM" src="https://github.com/renambot/vite2024/assets/5595452/a5bdb379-5764-4ba4-a453-37d4dffbe9e8">
 
 # Install
 
